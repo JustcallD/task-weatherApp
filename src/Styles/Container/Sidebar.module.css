@@ -1,0 +1,20 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%; /* Default width for small screens */
+  min-height: 50vh;
+  background-color: #b9b9b9;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    width: 45%; 
+    height: auto;
+  }
+}

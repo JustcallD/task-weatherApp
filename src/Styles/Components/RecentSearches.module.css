@@ -1,0 +1,42 @@
+.recentSearches {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.searchItem {
+  padding: 8px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 10px 11px 32px -6px rgba(0,0,0,0.37);
+-webkit-box-shadow: 10px 11px 32px -6px rgba(0,0,0,0.37);
+-moz-box-shadow: 10px 11px 32px -6px rgba(0,0,0,0.37);
+}
+
+.searchDetails {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+.icon {
+
+  color: #2fafff;
+}
+
+.value {
+  color: #555;
+}
